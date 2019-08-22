@@ -29,10 +29,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-JENKINS_TASKS = (
-‘django_jenkins.tasks.run_pep8’,
-‘django_jenkins.tasks.run_pyflakes’
-)
+# JENKINS_TASKS = (
+# ‘django_jenkins.tasks.run_pep8’,
+# ‘django_jenkins.tasks.run_pyflakes’
+# )
 
 
 # Application definition
