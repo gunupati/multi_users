@@ -29,13 +29,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-JENKINS_TASKS = (
-    'django_jenkins.tasks.run_pep8',
-    'django_jenkins.tasks.run_pyflakes',
-    'django_jenkins.tasks.run_jslint',
-    'django_jenkins.tasks.run_csslint',
-    'django_jenkins.tasks.run_sloccount'
-)
+# JENKINS_TASKS = (
+#     'django_jenkins.tasks.run_pep8',
+#     'django_jenkins.tasks.run_pyflakes',
+#     'django_jenkins.tasks.run_jslint',
+#     'django_jenkins.tasks.run_csslint',
+#     'django_jenkins.tasks.run_sloccount'
+# )
 
 
 # Application definition
@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.humanize',
-    'django_jenkins',
+#     'django_jenkins',
 
     'crispy_forms',
 
