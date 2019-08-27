@@ -4,4 +4,3 @@ pytz==2017.3
 django-jenkins
 pyflakes
 pep8
-numpy
